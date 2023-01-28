@@ -1,0 +1,37 @@
+khỏi tạo mảng tempArray []
+khỏi tạo result  []
+cho target 7
+cho mảng  nums [2, 2, 2, 2]
+cho index = 0 
+
+
+1. i=0, tempArray = [], total = 0
+    tempArray push nums[0] = 2
+        gọi hàm backtrack total + 2(nums[0])
+
+lặp tới y hệt vậy dến khi full mảng rồi return lúc này 
+tempArray = [2, 2, 2, 2];
+
+pop no ra luc nay 
+tempArray = [2, 2, 2];
+goi backtrack tang 1 don vi
+
+
+
+9 
+quay tro lai 
+pop 3 
+i = 6
+push 6 [2, 2, 2, 6];
+backtrack 
+total = 12
+return 
+pop
+i + 1 = 7
+backtrack 
+push 
+backtrack 
+total = 13
+return 
+total 6
+pop [2,2,2];

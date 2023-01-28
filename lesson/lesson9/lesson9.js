@@ -12,10 +12,14 @@ const backtrack = (i, tempArray, total, candidates, target, result) =>{
     if(i >= candidates.length || total > target){
         return
     }
-    
+    // day stack
     tempArray.push(candidates[i]);
     backtrack(i, tempArray, total + candidates[i],candidates ,target, result);
 
+    // nha stack 
     tempArray.pop();
-    backtrack(i, tempArray, total,candidates, target,result);
+    backtrack(i + 1, tempArray, total,candidates, target,result);
 }
+
+
+console.log(combinationSum([2,3,6,7],7));
