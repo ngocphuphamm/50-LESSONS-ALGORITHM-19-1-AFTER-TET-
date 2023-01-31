@@ -1,3 +1,4 @@
+//https://leetcode.com/problems/jump-game/submissions/886961466/
 function canJump(nums: number[]): boolean {
     const n  : number = nums.length;
     if(n == 1) return true;
