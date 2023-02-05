@@ -1,4 +1,4 @@
-//
+//https://leetcode.com/problems/word-pattern/description/
 function wordPattern(pattern = "abba", s = "dog cat cat dog") {
     s = s.split(" ");
     const mapPattern = new Map();
